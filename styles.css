@@ -392,6 +392,7 @@ h2{
     grid-template-columns: repeat(2,50%);
     grid-gap: 40px 40px;
     margin: auto;
+    padding-bottom: 6rem;
 }
 .grid2x2 img{
     width: 100%;
