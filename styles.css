@@ -14,9 +14,11 @@ main a {
     text-decoration: none;
     font-family: 'Nunito Sans', sans-serif;
 }
+
 main img{
     margin: auto;
 }
+
 .rowflex{
     display: flex;
     flex-direction: row;
@@ -58,11 +60,9 @@ main img{
     font-weight: bolder;      
 }
 
-  
 .topnav .icon {
     display: none;
 }
-
 
 .bottomnav{
     margin: 15% auto 5%;
@@ -97,13 +97,13 @@ main img{
     font-size: 1.05rem;
     text-decoration: none;
 }
+
 .fa-solid{
     font-size: 1rem;        
     padding-right: 20px;
     padding-left: 20px;
     color:#eb6A00;
 }
-
 
 .bottom{
     background-color: #FFFEFA;
@@ -123,7 +123,6 @@ main img{
 .bottom div{
     padding: 2px 2%;
 }
-
 
 h1{
     height:10%;
@@ -151,7 +150,6 @@ h2{
     border-left: 10px solid #eb6A00;
     padding-left: 10px;
 }
-
 
 .main_desc{
     font-family: 'Nunito Sans', sans-serif;
@@ -183,17 +181,21 @@ h2{
     padding-top: 5%;
     margin: auto;
 }
+
 .index_left{
     width: 40vw;
 }
+
 .index_right{
     width: 40vw;
     justify-content: space-evenly;
 }
+
 .topright{
     width: 75%;
     margin: auto;
 }
+
 .homenav{
     margin-top:5%;
 }
@@ -220,16 +222,20 @@ h2{
     padding: 1px 10px;
     transition: box-shadow .5s ease-in-out;
 }
+
 .hometxt a {
     color: #494949;
 }
+
 .hometxt:hover {
     box-shadow: inset 250px 0 0 0 #eb6A00;
 }
+
 .hometxt:hover a{
     color: #FFFEFA;
 
 }
+
 .names{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 0.75rem;
@@ -238,16 +244,17 @@ h2{
     padding-top:5%;
 }
 
-
 /* logo */
 
 .logo_items img{
     width:50%;
 }
+
 .wrapper{
     align-items: center;
     margin: auto;
 }
+
 .combined{
     margin: auto;
     justify-content: space-between;
@@ -264,25 +271,31 @@ h2{
     margin: auto;
     width: 50vw;
 }
+
 .logo img{
     width: 100%;
     margin: 0;
 }
+
 .wordmark img{
     width: 50vw;
 }
+
 .clearance{
     width: 100%;
     margin: auto;
 }
+
 .size{
     width: 50vw;
     margin: auto;
 }
+
 .logo .colflex{
     justify-content: center;
     align-items: center;
 }
+
 .list{
     margin:0;
     font-family: 'Nunito Sans', sans-serif;
@@ -315,8 +328,6 @@ h2{
     margin-bottom:4%;
     border: 1px solid red;
 }
-
-
 
 /* colours */
 
@@ -363,8 +374,6 @@ h2{
     justify-content: center;
 }
 
-
-
 /* icons */
 
 .icons{
@@ -381,6 +390,7 @@ h2{
     width: 25%;
     margin: 25px;
 }
+
 .buttons .rowflex{
     justify-content:center;
 }
@@ -394,9 +404,11 @@ h2{
     margin: auto;
     padding-bottom: 6rem;
 }
+
 .grid2x2 img{
     width: 100%;
 }
+
 .gridcol{
     padding-top: 7%;
     display: grid;
@@ -411,12 +423,12 @@ h2{
     width: 106%;
 }
 
-
 .layout img {
-    width: 40%;
+    width: 20%;
     display: flex;
     justify-content: center;
 }
+
 
 /* Reference Page */
 
