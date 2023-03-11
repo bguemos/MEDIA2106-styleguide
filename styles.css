@@ -12,11 +12,13 @@ main{
 main a {
     text-align: left;
     text-decoration: none;
-    font-family: open-sans;
+    font-family: 'Nunito Sans', sans-serif;
 }
+
 main img{
     margin: auto;
 }
+
 .rowflex{
     display: flex;
     flex-direction: row;
@@ -43,7 +45,7 @@ main img{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: open-sans;
+    font-family: 'Nunito Sans', sans-serif;
     transition: box-shadow .5s ease-in-out;
 }
   
@@ -58,15 +60,13 @@ main img{
     font-weight: bolder;      
 }
 
-  
 .topnav .icon {
     display: none;
 }
 
-
 .bottomnav{
     margin: 15% auto 5%;
-    font-family: 'open sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 0.55rem;
 }
 
@@ -97,6 +97,7 @@ main img{
     font-size: 1.05rem;
     text-decoration: none;
 }
+
 .fa-solid{
     font-size: 1rem;        
     padding-right: 20px;
@@ -104,11 +105,10 @@ main img{
     color:#eb6A00;
 }
 
-
 .bottom{
     background-color: #FFFEFA;
     border-top: 1px solid #ffab67;
-    font-family: open-sans;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
     font-size: 0.75rem;
     justify-content: space-between;
@@ -123,7 +123,6 @@ main img{
 .bottom div{
     padding: 2px 2%;
 }
-
 
 h1{
     height:10%;
@@ -142,7 +141,10 @@ h2{
     width: 75vw;
     margin: auto;
     margin-top: 13%;
+
     font-family: open-sans;
+
+
     font-size: 2rem;
     font-weight: 500;
     color: #34312d;
@@ -152,18 +154,19 @@ h2{
     padding-left: 10px;
 }
 
-
 .main_desc{
+
     font-family:open-sans;
     font-size: 1.2rem;
     padding-bottom: 5%;
     line-height: 2rem;
   
-}
+
+
 
 .desc{
     padding-bottom: 3%;
-    font-family: 'open-sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 1.25rem;
     font-weight: 200;
     margin-bottom:3%;
@@ -173,7 +176,7 @@ h2{
 
 .caption{
     padding-bottom: 15%;
-    font-family: open-sans;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 1.25rem;
     width: fit-content;
 }
@@ -184,23 +187,27 @@ h2{
     padding-top: 5%;
     margin: auto;
 }
+
 .index_left{
     width: 40vw;
 }
+
 .index_right{
     width: 40vw;
     justify-content: space-evenly;
 }
+
 .topright{
     width: 75%;
     margin: auto;
 }
+
 .homenav{
     margin-top:5%;
 }
 
 .homedesc{
-    font-family: open-sans;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 1.25rem;
     font-weight: 200;
     text-align: center;
@@ -211,7 +218,7 @@ h2{
     width: fit-content;
     margin: auto;
     margin-top: 7%;
-    font-family: open-sans;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 2.25rem;
     font-weight: 500;
     color: #494949;
@@ -221,34 +228,39 @@ h2{
     padding: 1px 10px;
     transition: box-shadow .5s ease-in-out;
 }
+
 .hometxt a {
     color: #494949;
 }
+
 .hometxt:hover {
     box-shadow: inset 250px 0 0 0 #eb6A00;
 }
+
 .hometxt:hover a{
     color: #FFFEFA;
 
 }
+
 .names{
-    font-family: open-sans;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 0.75rem;
     font-weight: 100;
     margin: auto;
     padding-top:5%;
 }
 
-
 /* logo */
 
 .logo_items img{
     width:50%;
 }
+
 .wrapper{
     align-items: center;
     margin: auto;
 }
+
 .combined{
     margin: auto;
     justify-content: space-between;
@@ -265,28 +277,34 @@ h2{
     margin: auto;
     width: 50vw;
 }
+
 .logo img{
     width: 100%;
     margin: 0;
 }
+
 .wordmark img{
     width: 50vw;
 }
+
 .clearance{
     width: 100%;
     margin: auto;
 }
+
 .size{
     width: 50vw;
     margin: auto;
 }
+
 .logo .colflex{
     justify-content: center;
     align-items: center;
 }
+
 .list{
     margin:0;
-    font-family: open-sans;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 1.25rem;
     font-weight: 200;
     width: fit-content;
@@ -316,8 +334,6 @@ h2{
     margin-bottom:4%;
     border: 1px solid red;
 }
-
-
 
 /* colours */
 
@@ -371,18 +387,23 @@ h2{
     justify-content: center;
 }
 
-
-
 /* icons */
 
 .icons{
     width: 50vw;
+    padding-bottom: 4rem;
+}
+
+.iconsSmall{
+    width: 25vw;
+    padding-top: 1rem;
 }
 
 .buttons img{
-    width: 30%;
+    width: 25%;
     margin: 25px;
 }
+
 .buttons .rowflex{
     justify-content:center;
 }
@@ -394,10 +415,13 @@ h2{
     grid-template-columns: repeat(2,50%);
     grid-gap: 40px 40px;
     margin: auto;
+    padding-bottom: 6rem;
 }
+
 .grid2x2 img{
     width: 100%;
 }
+
 .gridcol{
     padding-top: 7%;
     display: grid;
@@ -412,12 +436,12 @@ h2{
     width: 106%;
 }
 
-
 .layout img {
-    width: 40%;
+    width: 20%;
     display: flex;
     justify-content: center;
 }
+
 
 /* Reference Page */
 
