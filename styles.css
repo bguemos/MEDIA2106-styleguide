@@ -199,7 +199,7 @@ h2{
 }
 
 .topright{
-    width: 75%;
+    width: 55%;
     margin: auto;
 }
 
@@ -212,6 +212,7 @@ h2{
     font-size: 1.25rem;
     font-weight: 200;
     text-align: center;
+    padding-top: 5%;
 }
 
 .hometxt {
@@ -264,8 +265,9 @@ h2{
 
 .combined{
     margin: auto;
-    justify-content: space-between;
-    width: 50vw;
+    justify-content: space-evenly;
+    width: 45vw;
+    
 }
 
 .combined > img{
@@ -301,6 +303,7 @@ h2{
 .logo .colflex{
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .list{
