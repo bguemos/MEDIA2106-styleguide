@@ -158,9 +158,6 @@ h2{
     padding-bottom: 5%;
     line-height: 2rem;
 }
-  
-
-
 
 .desc{
     padding-bottom: 3%;
@@ -173,6 +170,7 @@ h2{
 }
 
 .caption{
+    padding-top: 1rem;
     padding-bottom: 15%;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.25rem;
@@ -264,6 +262,7 @@ h2{
     margin: auto;
     justify-content: space-evenly;
     width: 45vw;
+    gap: 2rem;
     
 }
 
@@ -276,6 +275,8 @@ h2{
     justify-content: space-evenly;
     margin: auto;
     width: 50vw;
+    gap: 1rem;
+    padding-top: 3rem;
 }
 
 .logo img{
