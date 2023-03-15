@@ -296,6 +296,7 @@ h2{
 .size{
     width: 50vw;
     margin: auto;
+    gap: 3rem;
 }
 
 .logo .colflex{
